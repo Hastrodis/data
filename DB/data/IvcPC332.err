@@ -1,0 +1,41 @@
+2020-02-28T08:15:51.549400Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2020-02-28T08:15:51.549403Z 0 [System] [MY-013169] [Server] C:\Server\bin\mysql-8.0\bin\mysqld (mysqld 8.0.19) initializing of server in progress as process 3252
+2020-02-28T08:16:06.666400Z 5 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2020-02-28T08:17:56.252400Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2020-02-28T08:17:56.252403Z 0 [System] [MY-010116] [Server] C:\Server\bin\mysql-8.0\bin\mysqld (mysqld 8.0.19) starting as process 4828
+2020-02-28T08:17:59.670400Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-02-28T08:17:59.922400Z 0 [System] [MY-010931] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: ready for connections. Version: '8.0.19'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2020-02-28T08:18:00.084400Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2020-02-29T07:47:59.222800Z 0 [System] [MY-013105] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: Normal shutdown.
+2020-02-29T07:50:20.488000Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2020-02-29T07:50:20.534801Z 0 [System] [MY-010116] [Server] C:\Server\bin\mysql-8.0\bin\mysqld (mysqld 8.0.19) starting as process 1976
+2020-02-29T07:50:27.320800Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-02-29T07:50:27.601600Z 0 [System] [MY-010931] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: ready for connections. Version: '8.0.19'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2020-02-29T07:50:27.820000Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2020-02-29T07:52:33.805600Z 0 [System] [MY-013105] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: Normal shutdown.
+2020-02-29T07:52:34.913200Z 0 [System] [MY-010910] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: Shutdown complete (mysqld 8.0.19)  MySQL Community Server - GPL.
+2020-02-29T07:54:24.727800Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2020-02-29T07:54:24.727803Z 0 [System] [MY-010116] [Server] C:\Server\bin\mysql-8.0\bin\mysqld (mysqld 8.0.19) starting as process 2024
+2020-02-29T07:54:35.382600Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-02-29T07:54:35.819400Z 0 [System] [MY-010931] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: ready for connections. Version: '8.0.19'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2020-02-29T07:54:36.256200Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2020-02-29T20:26:07.032400Z 0 [System] [MY-013105] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: Normal shutdown.
+2020-02-29T20:28:16.465200Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2020-02-29T20:28:16.496401Z 0 [System] [MY-010116] [Server] C:\Server\bin\mysql-8.0\bin\mysqld (mysqld 8.0.19) starting as process 1740
+2020-02-29T20:28:21.535200Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-02-29T20:28:21.831600Z 0 [System] [MY-010931] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: ready for connections. Version: '8.0.19'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2020-02-29T20:28:22.112400Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2020-03-23T01:49:32.480600Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2020-03-23T01:49:32.543001Z 0 [System] [MY-010116] [Server] C:\Server\bin\mysql-8.0\bin\mysqld (mysqld 8.0.19) starting as process 1976
+2020-03-23T01:49:44.648601Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2020-03-23T01:49:44.648602Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2020-03-23T01:49:45.132200Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-03-23T01:49:45.413000Z 0 [System] [MY-010931] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: ready for connections. Version: '8.0.19'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2020-03-23T01:49:45.631400Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2020-03-23T01:52:14.194600Z 0 [System] [MY-013105] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: Normal shutdown.
+2020-03-23T01:52:16.529600Z 0 [System] [MY-010910] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: Shutdown complete (mysqld 8.0.19)  MySQL Community Server - GPL.
+2020-10-23T01:59:53.467000Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2020-10-23T01:59:53.497001Z 0 [System] [MY-010116] [Server] C:\Server\bin\mysql-8.0\bin\mysqld (mysqld 8.0.19) starting as process 5268
+2020-10-23T01:59:58.466000Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-10-23T01:59:58.759000Z 0 [System] [MY-010931] [Server] C:\Server\bin\mysql-8.0\bin\mysqld: ready for connections. Version: '8.0.19'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2020-10-23T01:59:59.044000Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
