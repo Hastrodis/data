@@ -19,7 +19,15 @@
     if(!isset($_SESSION["email"]) && !isset($_SESSION["password"])){
 ?>
     <div id="form_register">
-        <h2>Форма регистрации<h2>
+       <p><h2> Форма регистрации</h2></p>
 
         <form action="register.php" method="post" name="form_register">
-            
+            <p>Ф.И.О.: <input type="text" name="FIO"> </p>
+            <p>Логин: <input type="text" name="login" required="required"> </p>
+            <p>Пароль: <input type="password" name="password" required="required"> </p>
+            <p>Email: <input type="email" name="email" required="required"> </p>
+            <input type="submit" name="btn_reg" value="Зарегистрироваться">
+
+<?php
+    }
+?>
