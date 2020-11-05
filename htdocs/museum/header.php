@@ -15,9 +15,11 @@
             <h2>Шапка сайта</h2>
  
             <a href="index.php">Главная</a>
- 
+            <?php
+                if(!isset($_SESSION['login']) && !isset($_SESSION['IDUser'])){
+            ?>
             <div id="auth_block">
- 
+
                 <div id="link_register">
                     <a href="form_register.php">Регистрация</a>
                 </div>
@@ -25,7 +27,18 @@
                 <div id="link_auth">
                     <a href="form_auth.php">Авторизация</a>
                 </div>
- 
+            <?php
+                } else {
+            ?>
+            <div>
+                <p> Добро пожаловать <?php echo $_SESSION['login']; ?> </p>
+            </div>
+            <div id="link_auth">
+                    <a href="logout.php">Выход</a>
+                </div>
+            <?php
+                }
+            ?>
             </div>
             <div class="clear"></div>
         </div>

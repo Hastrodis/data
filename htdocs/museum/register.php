@@ -10,7 +10,7 @@
             $emial = $_POST['email'];
             $query=$mysqli->query("SELECT * FROM user WHERE login = '$login'");
             $numrows=$query->num_rows;
-            echo $numrows;
+           
             if ($numrows == 0){
                 $sql="INSERT INTO user (email, FIO, login, password) VALUES ('$emial','$FIO','$login', '$password')";
                 $result=$mysqli->query($sql);

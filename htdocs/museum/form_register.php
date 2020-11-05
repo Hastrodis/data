@@ -16,7 +16,8 @@
         ?>
     </div>
 <?php
-    if(!isset($_SESSION["email"]) && !isset($_SESSION["password"])){
+    //форма регистрации тут
+    if(!isset($_SESSION['login']) && !isset($_SESSION['password'])){
 ?>
     <div id="form_register">
        <p><h2> Форма регистрации</h2></p>
@@ -27,7 +28,7 @@
             <p>Пароль: <input type="password" name="password" required="required"> </p>
             <p>Email: <input type="email" name="email" required="required"> </p>
             <input type="submit" name="btn_reg" value="Зарегистрироваться">
-
+    </div>
 <?php
     }
 ?>
