@@ -32,6 +32,20 @@
             ?>
             <div>
                 <p> Добро пожаловать <?php echo $_SESSION['login']; ?> </p>
+                <?php 
+                    if ($_SESSION['staff'] == 1) {
+                ?>
+                <p> Текст сотрудника </p>
+                <?php
+                    }
+                ?>
+                <?php 
+                    if ($_SESSION['admin'] == 1) {
+                ?>
+                <p> Поздравляю, вы администратор, грац! </p>
+                <?php
+                    }
+                ?>
             </div>
             <div id="link_auth">
                     <a href="logout.php">Выход</a>

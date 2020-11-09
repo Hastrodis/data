@@ -7,17 +7,28 @@
             $FIO = $_POST['FIO'];
             $login = $_POST['login'];
             $password = password_hash($_POST['password'], PASSWORD_DEFAULT); //хэширование
-            $emial = $_POST['email'];
-            $query=$mysqli->query("SELECT * FROM user WHERE login = '$login'");
-            $numrows=$query->num_rows;
-           
-            if ($numrows == 0){
-                $sql="INSERT INTO user (email, FIO, login, password) VALUES ('$emial','$FIO','$login', '$password')";
-                $result=$mysqli->query($sql);
+            $email = $_POST['email'];
 
+            $smtm=$mysqli->prepare('SELECT * FROM user WHERE login = ?');
+            $smtm->bind_param('s',$login);
+            $smtm->execute();
+            $query=$smtm->get_result();
+
+            //$query=$mysqli->query("SELECT * FROM user WHERE login = '$login'");
+            $numrows=$query->num_rows;
+            
+            if ($numrows == 0){
+
+                $smt=$mysqli->prepare('INSERT INTO user (email, FIO, login, password) VALUES (?, ?, ?, ?)');
+                $smt->bind_param('ssss',$email, $FIO, $login, $password);
+                $smt->execute();
+                /*$query=$smtm->get_result();
+                $sql="INSERT INTO user (email, FIO, login, password) VALUES ('$emial','$FIO','$login', '$password')";*/
+                $result=$smt->get_result();
+                echo $numrows;
                 if($result){
                     $message = "Account Successfully Created";
-                    echo "ОНО ЖИВОЕ";
+                    header( 'Location:  index.php' );
                 } else {
                  $message = "Failed to insert data information!";
                   }

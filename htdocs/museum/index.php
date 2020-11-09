@@ -7,5 +7,6 @@
 </div>
 
 <?php
+    //подключение футера
     require_once("footer.php");
 ?>
